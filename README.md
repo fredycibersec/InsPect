@@ -11,7 +11,7 @@
 > A comprehensive IP and domain intelligence tool that gathers threat data from multiple sources, performs risk analysis, and provides actionable security insights.
 
 <p align="center">
-  <img src="https://github.com/fredycibersec/DSInt/blob/main/DSInt_Tool_logo.png" alt="DSInt Logo" width="150"/>
+  <img src="https://github.com/fredycibersec/InsPect/blob/main/img/InsPect_logo.jpeg" alt="DSInt Logo" width="150"/>
 </p>
 
 InsPect is a Python command-line tool designed for comprehensive investigation of IP addresses and domain names. It aggregates data from multiple public and commercial intelligence sources, performs correlations, calculates a risk score, and presents findings in a clear, user-friendly format, optionally enhanced with rich terminal output.
