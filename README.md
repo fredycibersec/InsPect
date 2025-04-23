@@ -10,9 +10,13 @@
 
 > A comprehensive IP and domain intelligence tool that gathers threat data from multiple sources, performs risk analysis, and provides actionable security insights.
 
+<p align="center">
+  <img src="https://github.com/fredycibersec/DSInt/blob/main/DSInt_Tool_logo.png" alt="DSInt Logo" width="150"/>
+</p>
+
 InsPect is a Python command-line tool designed for comprehensive investigation of IP addresses and domain names. It aggregates data from multiple public and commercial intelligence sources, performs correlations, calculates a risk score, and presents findings in a clear, user-friendly format, optionally enhanced with rich terminal output.
 
-## Overview
+## 🌐  Overview
 
 InsPect streamlines the process of gathering intelligence on a target (IP or domain) by automating lookups across various services:
 
@@ -31,7 +35,7 @@ InsPect streamlines the process of gathering intelligence on a target (IP or dom
     *   Includes an **Executive Summary** highlighting key findings and providing a clear recommendation (e.g., Safe, Monitor, Block).
     *   Optionally outputs the full raw results to a JSON file for programmatic use or archival.
 
-## Features
+## ✨ Features
 
 *   **Supports both IP Address and Domain Name inputs.**
 *   **Multi-Source Intelligence:**
@@ -61,7 +65,7 @@ InsPect streamlines the process of gathering intelligence on a target (IP or dom
 *   External tools `dig` and `host` (usually pre-installed on Linux/macOS) for fallback DNS resolution.
 *   API Keys for enhanced functionality (see Setup).
 
-## Installation
+## 🔧 Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -108,7 +112,7 @@ For full functionality, InsPect uses several third-party APIs. Obtain API keys f
 
 **Tip:** You can place these `export` commands in your `~/.bashrc`, `~/.zshrc`, or create a `.env` file in the project directory (make sure to add `.env` to your `.gitignore`!) and use a tool like `python-dotenv` if you prefer (though the script doesn't automatically load `.env` files).
 
-## Usage
+## 🚀 Usage
 
 **Basic Scan:**
 ```bash
@@ -139,10 +143,14 @@ python ip_investigator.py example.com
     python ip_investigator.py 8.8.8.8 -o json -j report_google_dns.json
     ```
 
-## Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Please feel free to submit a pull request or open an issue.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/fredycibersec">SaruMan</a>
+</p>
